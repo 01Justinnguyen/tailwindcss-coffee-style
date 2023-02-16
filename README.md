@@ -19,7 +19,7 @@ $ yarn start:dev
 
 Author: **THANH Phúc** aka **Liamdev**
 
-CV: https://cv.trungquandev.com/
+CV: https://01justinnguyen.github.io/myCV/
 
 "The only person you should try to be better than is the person you were yesterday.!"
 
