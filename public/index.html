@@ -11,8 +11,8 @@
   </head>
   <body>
     <div id="root">
-      <div class="font-Karla content-wrapper max-w-screen-2xl text-base mx-auto px-8">
-        <header class="p-6 mx-auto">
+      <div class="content-wrapper font-Karla text-base mx-auto px-8">
+        <header class="p-6 mx-auto max-w-screen-2xl">
           <nav class="flex flex-row justify-between items-center relative">
             <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">CoffeeStyle.</div>
             <!-- Dưới lg < 1024 thì thuộc tính hidden còn trên 1024 thì hiện display: flex -->
@@ -358,7 +358,7 @@
             <div class="ct-subheadline-deco-line"></div>
           </div>
 
-          <div class="coffee-magazine w-[95%] xl:w-[65%] mx-auto">
+          <div class="coffee-magazine w-[95%] xl:w-[65%] mx-auto mb-24">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5">
               <div class="ct-magazine-images basis-1/2 md:flex md:flex-row gap-5 w-full h-full mb-5 md:mb-0">
                 <div class="ct-magazine-big-image h-[280px] basis-2/3 bg-[url('./images/coffee-magazine/magazine-image-01.jpeg')] bg-cover bg-no-repeat bg-center rounded-3xl"></div>
@@ -367,7 +367,7 @@
                   <div class="h-[130px] xs:h-[200px] md:h-[130px] basis-1/2 bg-[url('./images/coffee-magazine/magazine-image-03.jpeg')] bg-cover bg-no-repeat bg-center rounded-3xl"></div>
                 </div>
               </div>
-              <div class="ct-magazine-post text-center md:text-left md:basis-1/2 md:pl-10 lg:pl-14">
+              <div class="ct-magazine-post text-center md:text-left md:basis-1/2 md:pl-8 xl:pl-14">
                 <div class="uppercase leading-4 tracking-widest text-gray-500 font-medium text-xs mb-4">Premium Offer</div>
                 <div class="text-4xl mb-4">Get our Coffee Magazine</div>
                 <div class="text-gray-500 leading-7 mb-4">The most versatile furniture system ever created. Designed to fit your life.</div>
@@ -376,6 +376,10 @@
             </div>
           </div>
           <!--End coffee-magazine-->
+
+          <div
+            class="ct-parallax-section w-screen bg-[url('./images/parallax/bg-parallax-01.jpeg')] bg-cover bg-no-repeat bg-center h-[350px] lg:h-[650px] mb-24 bg-fixed relative left-[calc(-50vw_+_50%)]"></div>
+          <!--End parallax-section-->
 
           <div class="ct-subheadline">
             <div class="ct-subheadline-deco-line"></div>
