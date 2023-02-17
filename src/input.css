@@ -30,7 +30,7 @@
 }
 
 .ct-subheadline {
-  @apply flex justify-center items-center mb-16 mt-16;
+  @apply flex justify-center items-center my-16;
 }
 
 .ct-subheadline-deco-line {
